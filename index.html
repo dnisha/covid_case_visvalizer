@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>covid_data_visvalizer</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- <button onclick="onselectbox()">click</button> -->
+    <select name="" id="select" onchange="onselectbox()">
+      <option>Select Country</option>
+    </select>
+    <div id="container">
+      <div class="child" id="child1"><div><img src="assets/map.png" > Country</div><br><p></p></div>
+      <div class="child" id="child2"><div><img src="assets/eye.png" >Confirmed</div><p></p></div>
+      <div class="child" id="child3"><div><img src="assets/crosshair.png" >Deaths</div><p></p></div>
+      <div class="child" id="child4"><div><img src="assets/right.png" >Recovered</div><br><p></p></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
